@@ -12,7 +12,7 @@ exports.start = () => http.createServer((req, res) => {
   content += _.join(logList, '<br>');
   content += '</body></html>';
   return res.end(content);
-}).listen(process.env.PORT || 80);
+}).listen(process.env.PORT || 8080);
 
 exports.replaceLog = function (logger) {
   var functions = {
