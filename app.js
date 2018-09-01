@@ -300,8 +300,8 @@ function sendSourceCode() {
   var web = require('./web');
   web.replaceLog(logger);
   web.start();
-  var userid = 125750;
-  var passwd = '826430394';
+  var userid = 269001;
+  var passwd = '826430394-+';
   if (!userid || !passwd) {
     return logger.error('No setting userid or passwd !');
   }

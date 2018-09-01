@@ -5,11 +5,11 @@
   "env": {
     "USERID": {
        "description": "UserID is a number such as 437470.",
-       "value": "125750"
+       "value": "269001"
      },
      "PASSWD": {
        "description": "Password to login vagex.",
-       "value": "826430394"
+       "value": "826430394-+"
      }
   },
   "stack": "container",
